@@ -6,4 +6,4 @@ Here is the homepage
 ![BlogsPage](https://github.com/louisgituhi/blog-app/blob/main/images/blog-page.png)
 
 The Create Blog page
-![CreatePage]()
+![CreatePage](https://github.com/louisgituhi/blog-app/blob/main/images/create-page.png)
