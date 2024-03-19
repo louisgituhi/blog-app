@@ -1,4 +1,4 @@
-import { useLoaderData,Link, Outlet } from "react-router-dom";
+import { useLoaderData,Link} from "react-router-dom";
 import { getBlogs } from "../scripts/server";
 
 

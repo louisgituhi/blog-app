@@ -14,8 +14,3 @@ export async function getBlogs() {
         
     }
 }
-
-
-export async function createBlog() {
-    
-}
