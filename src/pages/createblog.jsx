@@ -9,7 +9,7 @@ const CreateBlog = () => {
         <div className=" mt-10 flex items-center justify-center">
 
            <Form className=" w-96 h-96 border border-gray-300 bg-white flex flex-col items-center rounded-xl"
-           method="post" action="/create">
+           method="post" action=":id">
 
                 <h1>Hi!, Please enter blog data. All fields must be filled</h1>
 
@@ -45,7 +45,7 @@ export const submitBlogDataAction = async ({ request }) => {
         url: data.get('url')
     }
 
-    const pb = new PocketBase('http://127.0.0.1:8090')
+    const pb = new PocketBase('http://127.0.0.1:8090' + id)
 
     const response = await pb.collection('blog')
     .create(blogData)

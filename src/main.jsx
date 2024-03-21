@@ -22,6 +22,7 @@ const router = createBrowserRouter(
 
           <Route path='create' element={ <CreateBlog /> } 
           action={submitBlogDataAction}/>
+
         </Route>
 
   )
